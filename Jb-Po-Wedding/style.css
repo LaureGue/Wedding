@@ -7,7 +7,7 @@ height:100%;
 font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1
+titre_h1
 {color:white;
 font-family: 'Great Vibes', cursive;
 font-size:50px;
@@ -15,7 +15,7 @@ text-align:center;
 }
 
 
-h2
+titre_h2
 {color:white;
   font-size:24px;
   font-family: 'Roboto Condensed', sans-serif;
