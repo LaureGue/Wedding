@@ -41,6 +41,12 @@ padding: 10px;
   padding:auto;
 }
 
+#coeur
+{padding-top:20px;
+text-align:center;
+}
+
+
 #histoire
 {height:auto;
 font-family: 'Roboto Condensed', sans-serif;
