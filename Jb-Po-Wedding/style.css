@@ -27,6 +27,7 @@ text-align:center;
   background-color:#E4C1F9;
   position:static;
   font-family: 'Roboto Condensed', sans-serif;
+  box-shadow: 0 0 10px #555
 }
 
 #histoire
