@@ -18,7 +18,7 @@ text-align:center;
 
 h2
 {color:white;
-font-size:24px;
+  font-size:24px;
   font-family: 'Roboto Condensed', sans-serif;
 text-align:center;
 }
@@ -27,11 +27,14 @@ text-align:center;
 {height:450px;
   background-color:#E4C1F9;
   position:static;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 
 #temoins
 {height:450px;
   background-color:#FFE7D5;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding:10px;
  
 }
