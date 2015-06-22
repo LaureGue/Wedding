@@ -1,6 +1,6 @@
 
 body
-{
+{background-color: blue;
 margin-top:-10px;
 padding:0;
 height:100%;
@@ -33,12 +33,15 @@ padding: 10px;
 }
 
 #invitation
-{height:450px;
+{height:550px;
+  margin-top:-10px;
   background-color:rgb(186, 188, 211);
   position:static;
   font-family: 'Roboto Condensed', sans-serif;
   box-shadow: 0 0 10px #555
   padding:auto;
+  position: relative;
+  z-index: 1;
 }
 
 #coeur
@@ -50,7 +53,10 @@ text-align:center;
 #histoire
 {height:auto;
 font-family: 'Roboto Condensed', sans-serif;
+background-image: url('images/background.png');
+font-family: 'Roboto Condensed', sans-serif;
 padding:20px;
+box-shadow: O 0 10px #555
 }
 
 #temoins
@@ -61,3 +67,20 @@ padding:20px;
   box-shadow: 0 0 10px #555
  
 }
+.image_coeur
+{border-radius: 150px;
+  height:250px;
+  box-shadow: 0px 0px 10px #343434
+ 
+}
+
+#lieu
+{height:auto;
+  background-image: url('images/background.png');
+  font-family: 'Roboto Condensed', sans-serif;
+  padding:10px;
+  
+ 
+}
+
+
