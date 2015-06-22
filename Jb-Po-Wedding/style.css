@@ -24,10 +24,11 @@ text-align:center;
 
 #invitation
 {height:450px;
-  background-color:#E4C1F9;
+  background-color:rgb(212, 184, 215);
   position:static;
   font-family: 'Roboto Condensed', sans-serif;
   box-shadow: 0 0 10px #555
+  padding:auto;
 }
 
 #histoire
@@ -38,7 +39,7 @@ padding:20px;
 
 #temoins
 {height:auto;
-  background-color:rgb(218, 213, 212);
+  background-color:rgb(241, 229, 220);
   font-family: 'Roboto Condensed', sans-serif;
   padding:10px;
   box-shadow: 0 0 10px #555
