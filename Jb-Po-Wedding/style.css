@@ -9,11 +9,13 @@ font-family: 'Roboto Condensed', sans-serif;
 
 h1
 {font-family: 'Great Vibes', cursive;
+text-align:center;
 }
 
 
 h2
 {font-family: 'Roboto Condensed', sans-serif;
+text-align:center;
 }
 
 #invitation
