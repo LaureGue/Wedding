@@ -34,7 +34,7 @@ padding: 10px;
 
 #invitation
 {height:450px;
-  background-color:rgb(212, 184, 215);
+  background-color:rgb(186, 188, 211);
   position:static;
   font-family: 'Roboto Condensed', sans-serif;
   box-shadow: 0 0 10px #555
@@ -55,7 +55,7 @@ padding:20px;
 
 #temoins
 {height:auto;
-  background-color:rgb(241, 229, 220);
+  background-color:rgb(219, 216, 226);
   font-family: 'Roboto Condensed', sans-serif;
   padding:10px;
   box-shadow: 0 0 10px #555
