@@ -30,9 +30,14 @@ text-align:center;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+#histoire
+{height:auto;
+font-family: 'Roboto Condensed', sans-serif;
+padding:20px;
+}
 
 #temoins
-{height:450px;
+{height:auto;
   background-color:#FFE7D5;
   font-family: 'Roboto Condensed', sans-serif;
   padding:10px;
