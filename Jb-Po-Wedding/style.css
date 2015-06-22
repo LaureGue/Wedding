@@ -17,15 +17,15 @@ text-align:center;
 
 #titre_h2
 {color:white;
-  font-size:30px;
+  font-size:36px;
   font-family: 'Roboto Condensed', sans-serif;
 text-align:center;
 }
 
 #titre_h3
-{color:grey;
+{color:black;
 font-family: 'Great Vibes', cursive;
-font-size:24px;
+font-size:34px;
 text-align:center;
 padding: 10px;
 }
