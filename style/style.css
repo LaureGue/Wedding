@@ -10,7 +10,7 @@ font-family: 'Roboto Condensed', sans-serif;
 #titre_h1
 {color:white;
 font-family: 'Great Vibes', cursive;
-font-size:50px;
+font-size:54px;
 text-align:center;
 padding-top:50px;
 
@@ -19,7 +19,7 @@ padding-top:50px;
 
 #titre_h2
 {color:white;
-  font-size:36px;
+  font-size:40px;
   font-family: 'Roboto Condensed', sans-serif;
 text-align:center;
 }
@@ -27,7 +27,7 @@ text-align:center;
 #titre_h3
 {color:black;
 font-family: 'Great Vibes', cursive;
-font-size:34px;
+font-size:36px;
 text-align:center;
 padding: 10px;
 }
@@ -47,6 +47,14 @@ padding: 10px;
 #coeur
 {padding-top:20px;
 text-align:center;
+}
+
+#texte
+{font-size:18px;
+text-align:center;
+padding:10px;
+font-family: 'Roboto Condensed', sans-serif;
+text-align:justify;
 }
 
 
