@@ -47,7 +47,7 @@ padding: 10px;
   background-color:rgb(186, 188, 211);
   font-family: 'Roboto Condensed', sans-serif;
   box-shadow: 0 0 10px #555;
-  position:fixed;
+  width:100%;
  
 }
 
