@@ -43,11 +43,11 @@ padding: 10px;
 
 #invitation
 { height:500px;
-  margin-top:-10px;
+  top:0;
   background-color:rgb(186, 188, 211);
   font-family: 'Roboto Condensed', sans-serif;
   box-shadow: 0 0 10px #555
-  padding:auto;
+  position:fixed;
  
 }
 
