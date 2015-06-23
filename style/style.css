@@ -47,8 +47,6 @@ padding: 10px;
   font-family: 'Roboto Condensed', sans-serif;
   box-shadow: 0 0 10px #555
   padding:auto;
-  position:fixed;
-  z-index:-1;
  
 }
 
@@ -72,7 +70,7 @@ background-image: url('images/background.png');
 font-family: 'Roboto Condensed', sans-serif;
 padding-top:540px;
 box-shadow: O 0 10px #555;
-z-index:1;
+
 
 }
 
