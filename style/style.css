@@ -69,7 +69,7 @@ text-align:justify;
 #histoire
 {height:auto;
 font-family: 'Roboto Condensed', sans-serif;
-background: url('images/background.png')center 0 no-repeat fixed;
+background: url('images/background.png')center 0 repeat fixed;
 font-family: 'Roboto Condensed', sans-serif;
 box-shadow: O 0 10px #555;
 
