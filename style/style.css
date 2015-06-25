@@ -6,6 +6,7 @@ padding:0;
 height:100%;
 font-family: 'Roboto Condensed', sans-serif;
 background-color:rgb(186, 188, 211)
+position:absolute;
 }
 
 #titre_h1
@@ -43,11 +44,12 @@ padding: 10px;
 
 #invitation
 { height:500px;
-  top:0;
   background:rgb(186, 188, 211)center 0 no-repeat fixed;
   font-family: 'Roboto Condensed', sans-serif;
   box-shadow: 0 0 10px #555;
   width:100%;
+  position:absolute;
+  margin:0;
   
   
  
