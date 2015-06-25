@@ -5,7 +5,7 @@ margin:0;
 padding:0;
 height:100%;
 font-family: 'Roboto Condensed', sans-serif;
-background-color:rgb(186, 188, 211)
+background-color:rgb(186, 188, 211);
 position:absolute;
 }
 
@@ -73,7 +73,8 @@ text-align:justify;
 font-family: 'Roboto Condensed', sans-serif;
 background: url('images/background.png')center 0 repeat fixed;
 font-family: 'Roboto Condensed', sans-serif;
-box-shadow: O 0 10px #555;
+box-shadow: 0 0 10px #555;
+position:absolute;
 
 
 }
