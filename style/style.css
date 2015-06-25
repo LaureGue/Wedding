@@ -69,7 +69,7 @@ text-align:justify;
 #histoire
 {height:auto;
 font-family: 'Roboto Condensed', sans-serif;
-background-image: url('images/background.png')center 0 no-repeat fixed;;
+background: url('images/background.png')center 0 no-repeat fixed;
 font-family: 'Roboto Condensed', sans-serif;
 box-shadow: O 0 10px #555;
 
@@ -84,7 +84,7 @@ z-index:-2;
 
 #temoins
 {height:auto;
-  background:rgb(219, 216, 226)center 0 no-repeat fixed;;
+  background:rgb(219, 216, 226)center 0 no-repeat fixed;
   font-family: 'Roboto Condensed', sans-serif;
   padding:10px;
   box-shadow: 0 0 10px #555
