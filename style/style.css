@@ -6,7 +6,7 @@ padding:0;
 height:100%;
 font-family: 'Roboto Condensed', sans-serif;
 background-color:rgb(186, 188, 211);
-position:absolute;
+
 }
 
 #titre_h1
@@ -74,7 +74,6 @@ font-family: 'Roboto Condensed', sans-serif;
 background: url('images/background.png')center 0 repeat fixed;
 font-family: 'Roboto Condensed', sans-serif;
 box-shadow: 0 0 10px #555;
-position:absolute;
 
 
 }
