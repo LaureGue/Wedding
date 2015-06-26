@@ -10,10 +10,16 @@ background-color:#FFB6B8;
 }
 header
 {
-position: fixed;
+  position: fixed;
   height: 64px;
   width: 100%;
   z-index: 10;
+
+}
+
+header a
+{
+  color:black;
 
 }
 #header_social
