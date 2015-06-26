@@ -14,14 +14,14 @@ header
   height: 64px;
   width: 100%;
   z-index: 10;
-  text-align:left;
+  text-align:right;
 
 }
 
 header a
 {
   color:#E8708B;;
-  font-size:24px;
+  font-size:34px;
 
 }
 #header_social
