@@ -160,15 +160,14 @@ z-index:-2;
 	}
 	.thanks {
 		font:45px/48px Great Vibes;
-		padding:0 24px;
-		margin: 0 0 21px 0
+		text-align:center;
 	}
 	.footer_txt {
 		opacity: 0.8;
 		padding:0 24px
 	}
 		.footer_social {
-			margin:0 0 24px 0
+			text-align:center;
 		}
 		.footer_social a {
 			height:48px;
@@ -176,7 +175,7 @@ z-index:-2;
 			display:inline-block;
 			text-align:center;
 			line-height:48px;
-			color:#fff
+			color:#E8708B
 		}
 		.footer_social a:after {
 				display:inline-block;
