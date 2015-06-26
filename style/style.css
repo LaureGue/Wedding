@@ -5,8 +5,7 @@ margin:0;
 padding:0;
 height:100%;
 width:100%;
-font-family: 'Roboto Condensed', sans-serif;
-background-color:rgb(186, 188, 211);
+background-color:#FFB6B8;
 
 }
 
@@ -45,7 +44,7 @@ padding: 10px;
 
 #invitation
 { height:500px;
-  background:rgb(186, 188, 211)center 0 no-repeat fixed;
+  background:#FFB6B8 center 0 no-repeat fixed;
   font-family: 'Roboto Condensed', sans-serif;
   box-shadow: 0 0 10px #555;
   width:100%;
@@ -86,7 +85,7 @@ z-index:-2;
 
 #temoins
 {height:auto;
-  background:rgb(219, 216, 226)center 0 no-repeat fixed;
+  background:#FFD9DF center 0 no-repeat fixed;
   font-family: 'Roboto Condensed', sans-serif;
   padding:10px;
   box-shadow: 0 0 10px #555
