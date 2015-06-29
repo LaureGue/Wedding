@@ -74,7 +74,7 @@ padding: 10px;
 
 #invitation
 { height:500px;
-  background:#FFB6B8 center 0 no-repeat fixed;
+  background:url('https://download.unsplash.com/photo-1428865798880-73444f4cbefc');
   font-family: 'Roboto Condensed', sans-serif;
   box-shadow: 0 0 10px #555;
   width:100%;
