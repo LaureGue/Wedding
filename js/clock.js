@@ -9,7 +9,7 @@ var Affiche=document.getElementById("clock");
  h = Math.floor ((sec - (j * n)) / 3600);
  mn = Math.floor ((sec - ((j * n + h * 3600))) / 60);
  sec = Math.floor (sec - ((j * n + h * 3600 + mn * 60)));
- Affiche.innerHTML = "Il reste : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s" avant l'évenement;
+Affiche.innerHTML = "C'est Noël dans exactement : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s";
  window.status = "Temps restant : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
  }
  tRebour=setTimeout ("Rebour();", 1000);
