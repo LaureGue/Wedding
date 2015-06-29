@@ -1,18 +1,86 @@
-var Affiche=document.getElementById("clock");
- function Rebour() {
- var date1 = new Date();
- var date2 = new Date ("May 14, 2016 00:00:00");
- var sec = (date2 - date1) / 1000;
- var n = 24 * 3600;
- if (sec > 0) {
- j = Math.floor (sec / n);
- h = Math.floor ((sec - (j * n)) / 3600);
- mn = Math.floor ((sec - ((j * n + h * 3600))) / 60);
- sec = Math.floor (sec - ((j * n + h * 3600 + mn * 60)));
-Affiche.innerHTML = "C'est Noël dans exactement : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s";
- window.status = "Temps restant : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
- }
- tRebour=setTimeout ("Rebour();", 1000);
- }
- Rebour();
-En savoir plus sur http://sophie-webmaster-test.e-monsite.com/pages/script/compte-a-rebours.html#djcr15ewmgD3E4ak.99
+function clock()
+{
+	var clock = document.getElementById("clock");
+
+	var date_actuelle = new Date();
+	var date_evenement = new Date("Jan 1 00:00:00 2017");
+	var total_secondes = (date_evenement - date_actuelle) / 1000;
+
+	var prefixe = "Compte à rebours terminé dans ";
+	if (total_secondes < 0)
+	{
+		prefixe = "Compte à rebours terminé il y a "; // On modifie le préfixe si la différence est négatif
+
+		total_secondes = Math.abs(total_secondes); // On ne garde que la valeur absolue
+
+	}
+
+	if (total_secondes > 0)
+	{
+		var jours = Math.floor(total_secondes / (60 * 60 * 24));
+		var heures = Math.floor((total_secondes - (jours * 60 * 60 * 24)) / (60 * 60));
+		minutes = Math.floor((total_secondes - ((jours * 60 * 60 * 24 + heures * 60 * 60))) / 60);
+		secondes = Math.floor(total_secondes - ((jours * 60 * 60 * 24 + heures * 60 * 60 + minutes * 60)));
+
+		var et = "et";
+		var mot_jour = "jours,";
+		var mot_heure = "heures,";
+		var mot_minute = "minutes,";
+		var mot_seconde = "secondes";
+
+		if (jours == 0)
+		{
+			jours = '';
+			mot_jour = '';
+		}
+		else if (jours == 1)
+		{
+			mot_jour = "jour,";
+		}
+
+		if (heures == 0)
+		{
+			heures = '';
+			mot_heure = '';
+		}
+		else if (heures == 1)
+		{
+			mot_heure = "heure,";
+		}
+
+		if (minutes == 0)
+		{
+			minutes = '';
+			mot_minute = '';
+		}
+		else if (minutes == 1)
+		{
+			mot_minute = "minute,";
+		}
+
+		if (secondes == 0)
+		{
+			secondes = '';
+			mot_seconde = '';
+			et = '';
+		}
+		else if (secondes == 1)
+		{
+			mot_seconde = "seconde";
+		}
+
+		if (minutes == 0 && heures == 0 && jours == 0)
+		{
+			et = "";
+		}
+
+		compte_a_rebours.innerHTML = prefixe + jours + ' ' + mot_jour + ' ' + heures + ' ' + mot_heure + ' ' + minutes + ' ' + mot_minute + ' ' + et + ' ' + secondes + ' ' + mot_seconde;
+	}
+	else
+	{
+		compte_a_rebours.innerHTML = 'Compte à rebours terminé.';
+	}
+
+	var actualisation = setTimeout("compte_a_rebours();", 1000);
+}
+compte_a_rebours();
