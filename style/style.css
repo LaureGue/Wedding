@@ -43,7 +43,7 @@ position: absolute;
 font-family: 'Great Vibes', cursive;
 font-size:54px;
 text-align:center;
-padding-top:50px;
+padding-top:150px;
 margin:0;
 
 }
@@ -73,11 +73,12 @@ padding: 10px;
 }
 
 #invitation
-{ height:500px;
-  background:url('https://download.unsplash.com/photo-1428865798880-73444f4cbefc') height:500px;
+{ background-size: 50%;
+  background:url('images/wedding.jpg') center 0 no-repeat fixed;
+  min-width: 100%;
+  height: 550px;
   font-family: 'Roboto Condensed', sans-serif;
   box-shadow: 0 0 10px #555;
-  width:100%;
   margin-top:0;
   
   
@@ -87,6 +88,7 @@ padding: 10px;
 #coeur
 {padding-top:20px;
 text-align:center;
+
 }
   .image_coeur
   {border-radius: 150px;
