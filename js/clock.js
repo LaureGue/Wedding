@@ -1,4 +1,4 @@
-var Affiche=document.getElementById("clock");
+var Affiche=document.getElementById("#clock");
  function Rebour() {
  var date1 = new Date();
  var date2 = new Date ("May 14, 2016 00:00:00");
