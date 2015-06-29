@@ -1,6 +1,6 @@
-function clock()
+function compte_a_rebours()
 {
-	var clock = document.getElementById("clock");
+	var compte_a_rebours = document.getElementById("compte_a_rebours");
 
 	var date_actuelle = new Date();
 	var date_evenement = new Date("Jan 1 00:00:00 2017");
