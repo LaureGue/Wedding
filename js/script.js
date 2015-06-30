@@ -1,3 +1,9 @@
+(function($){
+	"use strict"; // Start of use strict
+
+	$(document).ready(function() {
+		"use strict";
+
 /* Top Menu Click to Section */
 		$('.sub_menu').find('a').on("click", function(e){
 			$('.sub_menu').find('a').removeClass('active');
@@ -18,3 +24,5 @@
 			e.preventDefault();
 		});
 		
+});
+})(jQuery);
