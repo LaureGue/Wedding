@@ -157,6 +157,13 @@ text-align:center;
 		  	padding:10px;
 		 
 		}
+		#se_loger
+		{	height:350px;
+		  	background:rgba(24, 24, 24, 0.2) center 0 no-repeat fixed;
+		  	font-family: 'Roboto Condensed', sans-serif;
+		  	margin:10px;
+		 
+		}
 
 /*# Footer*/
 		.footer {
