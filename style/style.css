@@ -38,7 +38,7 @@ position: absolute;
 }
 /*Menu*/
 
-main_menu_btn {
+.main_menu_btn {
   cursor: pointer;
   display: block;
   height: 48px;
@@ -51,7 +51,7 @@ main_menu_btn {
 }
 
 
-main_menu_block {
+.main_menu_block {
   width: 100%;
   height: 100%;
   position: fixed;
