@@ -51,7 +51,7 @@ position: absolute;
 }
 
 .main_menu_btn .line {
-		  background: #bdbdbd;
+		  background: #E8708B;
 		  border-radius: 1px;
 		  display: block;
 		  height: 2px;
@@ -87,6 +87,11 @@ position: absolute;
 		  height: 100%;
 		  position: relative;
 }
+
+.menu_wrapper.active {
+  left: 0;
+}
+
 @media (max-width: 480px)
 .sub_menu {
   width: 100%;
