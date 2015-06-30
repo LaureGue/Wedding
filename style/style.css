@@ -139,6 +139,12 @@ text-align:center;
 		 
 		}
 
+/*# Formulaire*/
+		:required
+{
+    background-color: red;
+}
+
 
 /*# Lieu*/
 		#lieu
