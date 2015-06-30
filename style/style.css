@@ -69,134 +69,145 @@ margin:0;
 text-align:center;
 }
 
-#titre_h3
-{	color:black;
-	font-family: 'Great Vibes', cursive;
-	font-size:36px;
-	text-align:center;
-	padding: 10px;
-}
 
-.titre_h4
-{	color:black;
-	font-family: 'Great Vibes', cursive;
-	font-size:30px;
-	text-align:center;
-	padding: 10px;
-}
-
-
-
-#coeur
-{	padding-top:20px;
-	text-align:center;
-	background-color:rgba(231, 132, 151, 0.4);
-	border:4px solid rgba(231, 132, 151, 0.5);
-	border-radius:20px;
-	margin:10px;
-
-}
-  .image_coeur
-  {	border-radius: 150px;
-  	height:250px;
-	box-shadow: 0px 0px 10px #343434;
-	border:5px solid rgba(150, 150, 150, 0.4);
-   
-  }
-.texte
-{	font-size:16px;
-	padding:10px;
-	font-family: 'Roboto Condensed', sans-serif;
-	text-align:justify;
-}
-
-
-#histoire
-{	height:auto;
-	font-family: 'Roboto Condensed', sans-serif;
-	background: url('images/background.png')center 0 repeat fixed;
-	font-family: 'Roboto Condensed', sans-serif;
-	box-shadow: 0 0 10px #555;
-
-
-}
-
-#hidden
-{	height:500px;
-	z-index:-2;
-
-}
+/*Leur histoire*/
+		#titre_h3
+		{	color:black;
+			font-family: 'Great Vibes', cursive;
+			font-size:36px;
+			text-align:center;
+			padding: 10px;
+		}
+		
+		.titre_h4
+		{	color:black;
+			font-family: 'Great Vibes', cursive;
+			font-size:30px;
+			text-align:center;
+			padding: 10px;
+		}
+		
+		
+		
+		#coeur
+		{	padding-top:20px;
+			text-align:center;
+			background-color:rgba(231, 132, 151, 0.4);
+			border:4px solid rgba(231, 132, 151, 0.5);
+			border-radius:20px;
+			margin:10px;
+		
+		}
+		  .image_coeur
+		  {	border-radius: 150px;
+		  	height:250px;
+			box-shadow: 0px 0px 10px #343434;
+			border:5px solid rgba(150, 150, 150, 0.4);
+		   
+		  }
+		.texte
+		{	font-size:16px;
+			padding:10px;
+			font-family: 'Roboto Condensed', sans-serif;
+			text-align:justify;
+		}
+		
+		
+		#histoire
+		{	height:auto;
+			font-family: 'Roboto Condensed', sans-serif;
+			background: url('images/background.png')center 0 repeat fixed;
+			font-family: 'Roboto Condensed', sans-serif;
+			box-shadow: 0 0 10px #555;
+		
+		
+		}
+		
+		#hidden
+		{	height:500px;
+			z-index:-2;
+		
+		}
 
 /*# Témoins*/
-#temoins
-{	  height:auto;
-	  background:#FFD9DF center 0 no-repeat fixed;
-	  font-family: 'Roboto Condensed', sans-serif;
-	  padding:10px;
-	  box-shadow: 0 0 10px #555
- 
-}
+		#temoins
+		{	  height:auto;
+			  background:#FFD9DF center 0 no-repeat fixed;
+			  font-family: 'Roboto Condensed', sans-serif;
+			  padding:10px;
+			  box-shadow: 0 0 10px #555
+		 
+		}
 
 
 /*# Lieu*/
-#lieu
-{	height:300px;
-  	background:url('images/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg') center 0 no-repeat fixed;
-  	font-family: 'Roboto Condensed', sans-serif;
-  	padding:10px;
- 
-}
+		#lieu
+		{	height:300px;
+		  	background:url('images/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg') center 0 no-repeat fixed;
+		  	font-family: 'Roboto Condensed', sans-serif;
+		  	padding:10px;
+		 
+		}
+
+/*# Se loger*/
+		#dormir
+		{	height:400px;
+		  	background:url('images/green-bike.jpg') center 0 no-repeat fixed;
+		  	font-family: 'Roboto Condensed', sans-serif;
+		  	padding:10px;
+		 
+		}
 
 /*# Footer*/
-.footer {
-	background-size:cover;
-	background-repeat:no-repeat;
-	background-position: top;
-}
-	.footer .container {
-		height: 100%
-	}
-	.footer .over {
-		width:100%;
-		height:100%;
-		z-index:0;
-		display:block;
-		content:"";
-		position:absolute;
-		top:0;
-		left:0
-	}
-	.thanks {
-		font:45px/48px Great Vibes;
-		text-align:center;
-	}
-	.footer_txt {
-		opacity: 0.8;
-		padding:0 24px
-	}
-		.footer_social {
-			text-align:center;
+		.footer {
+			background-size:cover;
+			background-repeat:no-repeat;
+			background-position: top;
 		}
-		.footer_social a {
-			height:48px;
-			width:48px;
-			display:inline-block;
-			text-align:center;
-			line-height:48px;
-			color:#E8708B
-		}
-		.footer_social a:after {
-				display:inline-block;
-				content:"";
-				position: absolute;
-				width:1px;
-				height:40px;
-				transform:rotate(17deg);
-				margin:6px 0 0 18px;
-				background:#fff
+			.footer .container {
+				height: 100%
 			}
-				.footer_social a:last-child:after{
-					display:none
+			.footer .over {
+				width:100%;
+				height:100%;
+				z-index:0;
+				display:block;
+				content:"";
+				position:absolute;
+				top:0;
+				left:0
+			}
+			.thanks {
+				font:45px/48px Great Vibes;
+				text-align:center;
+			}
+			.footer_txt {
+				opacity: 0.8;
+				padding:0 24px
+			}
+				.footer_social {
+					text-align:center;
 				}
+				.footer_social a {
+					height:48px;
+					width:48px;
+					display:inline-block;
+					text-align:center;
+					line-height:48px;
+					color:#E8708B
+				}
+				.footer_social a:after {
+						display:inline-block;
+						content:"";
+						position: absolute;
+						width:1px;
+						height:40px;
+						transform:rotate(17deg);
+						margin:6px 0 0 18px;
+						background:#fff
+					}
+						.footer_social a:last-child:after{
+							display:none
+						}
 	
 
