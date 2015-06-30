@@ -38,6 +38,19 @@ position: absolute;
 }
 
 /*Présentation*/
+#invitation
+{ 	background-size: 50%;
+  	background:url('images/wedding.jpg') center 0 no-repeat fixed;
+  	min-width: 100%;
+  	height: 550px;
+  	font-family: 'Roboto Condensed', sans-serif;
+  	box-shadow: 0 0 10px #555;
+  	margin-top:0;
+  
+  
+ 
+}
+
 #titre_h1
 {color:white;
 font-family: 'Great Vibes', cursive;
@@ -57,92 +70,80 @@ text-align:center;
 }
 
 #titre_h3
-{color:black;
-font-family: 'Great Vibes', cursive;
-font-size:36px;
-text-align:center;
-padding: 10px;
+{	color:black;
+	font-family: 'Great Vibes', cursive;
+	font-size:36px;
+	text-align:center;
+	padding: 10px;
 }
 
 .titre_h4
-{color:black;
-font-family: 'Great Vibes', cursive;
-font-size:30px;
-text-align:center;
-padding: 10px;
+{	color:black;
+	font-family: 'Great Vibes', cursive;
+	font-size:30px;
+	text-align:center;
+	padding: 10px;
 }
 
-#invitation
-{ background-size: 50%;
-  background:url('images/wedding.jpg') center 0 no-repeat fixed;
-  min-width: 100%;
-  height: 550px;
-  font-family: 'Roboto Condensed', sans-serif;
-  box-shadow: 0 0 10px #555;
-  margin-top:0;
-  
-  
- 
-}
+
 
 #coeur
-{padding-top:20px;
-text-align:center;
-background-color:rgba(231, 132, 151, 0.4);
-border:4px solid rgba(231, 132, 151, 0.5);
-border-radius:20px;
-margin:10px;
+{	padding-top:20px;
+	text-align:center;
+	background-color:rgba(231, 132, 151, 0.4);
+	border:4px solid rgba(231, 132, 151, 0.5);
+	border-radius:20px;
+	margin:10px;
 
 }
   .image_coeur
-  {border-radius: 150px;
-    height:250px;
-    box-shadow: 0px 0px 10px #343434;
-    border:5px solid rgba(150, 150, 150, 0.4);
+  {	border-radius: 150px;
+  	height:250px;
+	box-shadow: 0px 0px 10px #343434;
+	border:5px solid rgba(150, 150, 150, 0.4);
    
   }
 .texte
-{font-size:16px;
-padding:10px;
-font-family: 'Roboto Condensed', sans-serif;
-text-align:justify;
+{	font-size:16px;
+	padding:10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align:justify;
 }
 
 
 #histoire
-{height:auto;
-font-family: 'Roboto Condensed', sans-serif;
-background: url('images/background.png')center 0 repeat fixed;
-font-family: 'Roboto Condensed', sans-serif;
-box-shadow: 0 0 10px #555;
+{	height:auto;
+	font-family: 'Roboto Condensed', sans-serif;
+	background: url('images/background.png')center 0 repeat fixed;
+	font-family: 'Roboto Condensed', sans-serif;
+	box-shadow: 0 0 10px #555;
 
 
 }
 
 #hidden
-{height:500px;
-z-index:-2;
+{	height:500px;
+	z-index:-2;
 
 }
 
 /*# Témoins*/
 #temoins
-{height:auto;
-  background:#FFD9DF center 0 no-repeat fixed;
-  font-family: 'Roboto Condensed', sans-serif;
-  padding:10px;
-  box-shadow: 0 0 10px #555
+{	  height:auto;
+	  background:#FFD9DF center 0 no-repeat fixed;
+	  font-family: 'Roboto Condensed', sans-serif;
+	  padding:10px;
+	  box-shadow: 0 0 10px #555
  
 }
 
 
 /*# Lieu*/
 #lieu
-{height:auto;
-  background:url('images/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg') center 0 no-repeat fixed;
-  font-family: 'Roboto Condensed', sans-serif;
-  padding:10px;
-  
+{	height:300px;
+  	background:url('images/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg') center 0 no-repeat fixed;
+  	font-family: 'Roboto Condensed', sans-serif;
+  	padding:10px;
  
 }
 
