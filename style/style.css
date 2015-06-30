@@ -44,7 +44,7 @@ position: absolute;
 }
 .btn-navbar {
     display: none;
-    float: right;
+    float: left;
     padding: 12px 15px;
     margin-right: 5px;
     margin-left: 5px;
