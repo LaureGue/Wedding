@@ -51,6 +51,18 @@ position: absolute;
 		  margin: 7px 0 0 16px;
 }
 
+.main_menu_btn_open {
+		  cursor: pointer;
+		  display: block;
+		  height: 48px;
+		  position: absolute;
+		  transform: translateZ(0px);
+		  width: 48px;
+		  z-index: 103;
+		  padding: 10px;
+		  margin: 7px 0 0 16px;
+}
+
 .main_menu_btn .line {
 		  background: #E8708B;
 		  border-radius: 1px;
