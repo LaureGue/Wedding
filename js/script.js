@@ -1,10 +1,4 @@
-(function($){
-	"use strict"; // Start of use strict
-
-	$(document).ready(function() {
-		"use strict";
-		
-		/*Main Menu Button */
+/*Main Menu Button */
 		$('.main_menu_btn').on("click", function(e){
 			$(this).toggleClass('main_menu_btn_open');
 			$('.main_menu_block').toggleClass('main_menu_block_open').fadeToggle();
@@ -13,8 +7,7 @@
 			e.preventDefault();
 		});
 		
-});
-})(jQuery);
+
 
 
 /* Top Menu Click to Section */
@@ -28,7 +21,7 @@
 			$(".main_menu_btn").trigger('click');
 			e.preventDefault();
 		});
-/*Main Menu Button */
+
 
 
 	
