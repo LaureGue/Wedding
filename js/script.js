@@ -1,14 +1,3 @@
- $(document).ready(function() {
-		$('.main_menu_btn').on("click", function(e){
-			$(this).toggleClass('main_menu_btn_open');
-			$('.main_menu_block').toggleClass('main_menu_block_open').fadeToggle();
-			$('.main_menu_block').find('.menu_wrapper').toggleClass('active');
-			$('header .anim').toggleClass('active');
-			e.preventDefault();
-		});
-		
- });
-		
 
 
 
