@@ -17,18 +17,7 @@
 		});
 /*Main Menu Button */
 
-function toggle('.main_menu_block', '.main_menu_btn') {
-	var ele = document.getElementById('.main_menu_block');
-	var text = document.getElementById('.main_menu_btn');
-	if(ele.style.display == "block") {
-    		ele.style.display = "none";
-		text.innerHTML = "show";
-  	}
-	else {
-		ele.style.display = "block";
-		text.innerHTML = "hide";
-	}
-} 
+
 	
 
 /*Main Menu Button */
