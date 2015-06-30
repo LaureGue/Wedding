@@ -151,7 +151,7 @@ text-align:center;
 
 /*# Se loger*/
 		#dormir
-		{	height:400px;
+		{	height:500px;
 		  	background:url('images/green-bike.jpg') center 0 no-repeat fixed;
 		  	font-family: 'Roboto Condensed', sans-serif;
 		  	padding:10px;
@@ -159,7 +159,7 @@ text-align:center;
 		}
 		#se_loger
 		{	height:350px;
-		  	background:rgba(24, 24, 24, 0.2) center 0 no-repeat fixed;
+		  	background:rgba(255, 255, 255, 0.5) center 0 no-repeat fixed;
 		  	font-family: 'Roboto Condensed', sans-serif;
 		  	margin:10px;
 		 
