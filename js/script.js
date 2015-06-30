@@ -1,8 +1,4 @@
-
-	$(document).ready(function() {
-		"use strict";
-
-/*Main Menu Button */
+ $(document).ready(function() {
 		$('.main_menu_btn').on("click", function(e){
 			$(this).toggleClass('main_menu_btn_open');
 			$('.main_menu_block').toggleClass('main_menu_block_open').fadeToggle();
@@ -11,10 +7,12 @@
 			e.preventDefault();
 		});
 		
+ });
+		
 
 
 
-/* Top Menu Click to Section */
+ $(document).ready(function() {
 		$('.sub_menu').find('a').on("click", function(e){
 			$('.sub_menu').find('a').removeClass('active');
 			$(this).addClass('active');
@@ -26,7 +24,7 @@
 			e.preventDefault();
 		});
 
+ });
 
-
-	});
+	
 
