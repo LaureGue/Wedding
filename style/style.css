@@ -59,6 +59,10 @@ position: absolute;
        -moz-border-radius: 1px; /* prennent en charge les nouvelles propriétés. */
             border-radius: 1px;
 }
+
+.icon-bar + .icon-bar { /* Le + permet de sélectionner les éléments qui suivent */
+    margin-top: 3px;
+}
 	.main_menu_btn {
 		cursor: pointer;
 		display: block;
