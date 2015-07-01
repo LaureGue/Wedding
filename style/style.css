@@ -40,9 +40,10 @@ header
 .header_social
 {		text-align:right;
 		position: absolute;
-		  right: 16px;
-		  margin: 5px 0 0 0;
-		  font-size: 16px;
+		right: 16px;
+		margin: 5px 0 0 0;
+		font-size: 16px;
+		display:block;
   
 }
 
@@ -54,6 +55,7 @@ header
 		  right: 16px;
 		  margin: 5px 0 0 0;
 		  font-size: 16px;
+		  display:block;
   
 }
 
@@ -62,9 +64,10 @@ header
 {		color:white;
 		text-align:right;
 		position: absolute;
-		  right: 16px;
-		  margin: 5px 0 0 0;
-		  font-size: 16px;
+		right: 16px;
+		margin: 5px 0 0 0;
+		font-size: 16px;
+		display:block;
   
 }
 /*Menu*/
