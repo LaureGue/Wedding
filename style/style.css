@@ -1,4 +1,6 @@
+/*Feuille de Styles Made by LG*/
 
+/*General*/
 html, body
 {
 	margin:0;
@@ -8,6 +10,13 @@ html, body
 	background-color:#FFB6B8;
 
 }
+a
+{
+	color:white;
+	cursor:pointer;
+
+}
+
 /*Header*/
 
 header
