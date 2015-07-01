@@ -370,6 +370,7 @@ header
 				font:45px/48px Great Vibes;
 				text-align:center;
 				margin-top:10px;
+				color:white
 			}
 			.footer_txt {
 				opacity: 0.8;
@@ -400,4 +401,7 @@ header
 							display:none
 						}
 	
-
+				.copyrights {
+				font:25px/27px Great Vibes;
+				text-align:center;
+				margin-top:10px;
