@@ -46,7 +46,16 @@ header
   
 }
 
+.header_social a
 
+{	
+		text-align:right;
+		position: absolute;
+		  right: 16px;
+		  margin: 5px 0 0 0;
+		  font-size: 16px;
+  
+}
 
 .header_social a:hover
 
