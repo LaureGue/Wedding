@@ -28,7 +28,7 @@ header
 	    padding:2px;
   
   }
-#header_social
+.header_social
 {		text-align:right;
 		position: absolute;
 		  right: 16px;
