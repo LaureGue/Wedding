@@ -10,12 +10,29 @@ html, body
 	background-color:#FFB6B8;
 
 }
+
 a
 {
-	color:white;
-	cursor:pointer;
+	color:black;
+		cursor:pointer;
 
 }
+
+a:hover
+{
+	color:white;
+		cursor:pointer;
+
+}
+
+div
+{
+	text-align: center;
+	margin: 8x;
+
+}
+
+
 
 /*Header*/
 
@@ -30,45 +47,51 @@ header
 
 }
 
-  header a
+header a
   {
 	    color:#E8708B;;
 	    font-size:34px;
 	    padding:2px;
   
   }
-.header_social
-{		text-align:right;
-		position: absolute;
-		
-		font-size: 16px;
-		display:block;
-  
-}
+.header_social {
+		position:absolute;
+		right:16px;
+		margin:5px 0 0 0;
+		font-size:16px
+	}
+		.header_social a {
+			height:30px;
+			width:30px;
+			display:inline-block;
+			text-align:center;
+			line-height:48px;
+			color:#615582!important;
+			margin: 8px;
+		}
 
-.header_social a
+		.header_social a over{
+			
+			color:white;
+		}
+			.header_social a:after {
+				display:inline-block;
+				content:"";
+				position: absolute;
+				width:2px;
+				height:30px;
+				transform:rotate(17deg);
+				margin:6px 0 0 14px;
+				background:white;
+			}
+				.header_social a:last-child:after{
+					display:none
+				}
+			.header_social i {
+				vertical-align:middle
+			}
 
-{	
-		text-align:right;
-		position: absolute;
-		right: 16px;
-		margin: 5px 0 0 0;
-		font-size: 16px;
-		display:block;
-  
-}
 
-.header_social a:hover
-
-{		color:white;
-		text-align:right;
-		position: absolute;
-		right: 16px;
-		margin: 5px 0 0 0;
-		font-size: 16px;
-		display:block;
-  
-}
 /*Menu*/
 
 	
@@ -248,14 +271,22 @@ header
 				}
 
 /*Présentation*/
+
+		mark {
+	    	font-family: 'Great Vibes', cursive;
+			font-size:30px;
+			background: none;
+		}
+
+
 		#invitation
-		{ 	background-size: 100%;
-		  	background:url('images/amour.jpg') center 0 no-repeat fixed;
+		{ 	background-size: 50%;
+		  	background:url('images/amour.jpeg') center -150px no-repeat fixed;
 		  	min-width: 100%;
-		  	height: 550px;
+		  	height: 800px;
 		  	font-family: 'Roboto Condensed', sans-serif;
 		  	box-shadow: 0 0 10px #555;
-		  	margin-top:0;
+		  	margin-top:0px;
 		  
 		  
 		 
@@ -338,6 +369,14 @@ header
 		
 		}
 
+		#compte_a_rebours
+		{	color:white;
+			font-family: 'Great Vibes', cursive;
+			font-size:36px;
+			text-align:center;
+			padding: 10px;
+		}
+
 /*# Témoins*/
 		#temoins
 		{	  height:auto;
@@ -348,6 +387,13 @@ header
 		 
 		}
 
+		/*# Liste mariage*/
+		#liste-mariage
+{
+    margin-bottom: 30px
+}
+
+
 /*# Formulaire*/
 		:required
 {
@@ -357,7 +403,7 @@ header
 
 /*# Lieu*/
 		#lieu
-		{	height:800px;
+		{	height:900px;
 		  	background:url('images/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg') center 0 no-repeat fixed;
 		  	font-family: 'Roboto Condensed', sans-serif;
 		  	padding:10px;

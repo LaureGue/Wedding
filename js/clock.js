@@ -6,10 +6,10 @@ function compte_a_rebours()
 	var date_evenement = new Date("May 16 16:00:00 2016");
 	var total_secondes = (date_evenement - date_actuelle) / 1000;
 
-	var prefixe = "Plus que ";
+	var prefixe = "RDV dans ";
 	if (total_secondes < 0)
 	{
-		prefixe = "Compte à rebours terminé il y a "; // On modifie le préfixe si la différence est négatif
+		prefixe = "Just Married "; // On modifie le préfixe si la différence est négatif
 
 		total_secondes = Math.abs(total_secondes); // On ne garde que la valeur absolue
 
@@ -23,10 +23,10 @@ function compte_a_rebours()
 		secondes = Math.floor(total_secondes - ((jours * 60 * 60 * 24 + heures * 60 * 60 + minutes * 60)));
 
 		var et = "et";
-		var mot_jour = "jours,";
-		var mot_heure = "heures,";
-		var mot_minute = "minutes,";
-		var mot_seconde = "secondes";
+		var mot_jour = "J/";
+		var mot_heure = "H/";
+		var mot_minute = "Min/";
+		var mot_seconde = "Sec/";
 
 		if (jours == 0)
 		{
