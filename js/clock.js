@@ -3,10 +3,10 @@ function compte_a_rebours()
 	var compte_a_rebours = document.getElementById("compte_a_rebours");
 
 	var date_actuelle = new Date();
-	var date_evenement = new Date("Jan 1 00:00:00 2017");
+	var date_evenement = new Date("May 16 16:00:00 2016");
 	var total_secondes = (date_evenement - date_actuelle) / 1000;
 
-	var prefixe = "Compte à rebours terminé dans ";
+	var prefixe = "Plus que ";
 	if (total_secondes < 0)
 	{
 		prefixe = "Compte à rebours terminé il y a "; // On modifie le préfixe si la différence est négatif

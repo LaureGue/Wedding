@@ -40,8 +40,7 @@ header
 .header_social
 {		text-align:right;
 		position: absolute;
-		right: 16px;
-		margin: 5px 0 0 0;
+		
 		font-size: 16px;
 		display:block;
   
@@ -250,8 +249,8 @@ header
 
 /*Présentation*/
 		#invitation
-		{ 	background-size: 50%;
-		  	background:url('images/wedding.jpg') center 0 no-repeat fixed;
+		{ 	background-size: 100%;
+		  	background:url('images/amour.jpg') center 0 no-repeat fixed;
 		  	min-width: 100%;
 		  	height: 550px;
 		  	font-family: 'Roboto Condensed', sans-serif;
@@ -283,7 +282,7 @@ header
 
 /*Leur histoire*/
 		#titre_h3
-		{	color:#E8708B;
+		{	color:#615582;
 			font-family: 'Great Vibes', cursive;
 			font-size:36px;
 			text-align:center;
@@ -291,7 +290,7 @@ header
 		}
 		
 		.titre_h4
-		{	color:#E8708B;
+		{	color:#615582;
 			font-family: 'Great Vibes', cursive;
 			font-size:30px;
 			text-align:center;
@@ -303,8 +302,7 @@ header
 		#coeur
 		{	padding-top:20px;
 			text-align:center;
-			background-color:rgba(231, 132, 151, 0.4);
-			border:4px solid rgba(231, 132, 151, 0.5);
+			
 			border-radius:20px;
 			margin:10px;
 		
@@ -343,7 +341,7 @@ header
 /*# Témoins*/
 		#temoins
 		{	  height:auto;
-			  background:#FFD9DF center 0 no-repeat fixed;
+			  background:#d0c5e5 center 0 no-repeat fixed;
 			  font-family: 'Roboto Condensed', sans-serif;
 			  padding:10px;
 			  box-shadow: 0 0 10px #555
@@ -387,7 +385,7 @@ header
 			background-size:cover;
 			background-repeat:no-repeat;
 			background-position: top;
-			background-color:#FFB6B8;
+			background-color:#d0c5e5;
 		}
 			.footer .container {
 				height: 100%
@@ -421,7 +419,7 @@ header
 					display:inline-block;
 					text-align:center;
 					line-height:48px;
-					color:#E8708B
+					color:white
 				}
 				.footer_social a:after {
 						display:inline-block;
@@ -438,9 +436,9 @@ header
 						}
 	
 				.copyrights {
-				font:25px/27px Great Vibes;
+				font:20px/22px Roboto Condensed;
 				text-align:center;
 				margin-top:10px;
-				color:white;
+				color:grey;
 				}
 					
