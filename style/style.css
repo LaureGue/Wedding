@@ -7,13 +7,13 @@ html, body
 	padding:0;
 	height:100%;
 	width:100%;
-	background-color:#FFB6B8;
+	background: url('images/background.png')center 0 repeat fixed;
 
 }
 
 a
 {
-	color:black;
+	color:#615582;
 		cursor:pointer;
 
 }
@@ -351,6 +351,14 @@ header a
 			font-family: 'Roboto Condensed', sans-serif;
 			text-align:justify;
 		}
+
+		.texte-center
+		{	font-size:16px;
+			padding:10px;
+			font-family: 'Roboto Condensed', sans-serif;
+			text-align:center;
+			}
+		
 		
 		
 		#histoire
@@ -403,10 +411,17 @@ header a
 
 /*# Lieu*/
 		#lieu
-		{	height:900px;
+		{	height:650px;
 		  	background:url('images/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg') center 0 no-repeat fixed;
 		  	font-family: 'Roboto Condensed', sans-serif;
 		  	padding:10px;
+		 
+		}
+
+		.Lieu img {	
+
+
+			margin-top: 100px;
 		 
 		}
 
@@ -419,12 +434,41 @@ header a
 		 
 		}
 		#se_loger
-		{	height:350px;
-		  	background:rgba(255, 255, 255, 0.5) center 0 no-repeat fixed;
+		{	height:400px;
+		  	background:rgba(255, 255, 255, 0.65) center 0 no-repeat fixed;
 		  	font-family: 'Roboto Condensed', sans-serif;
 		  	margin:10px;
 		 
 		}
+
+		.logis img
+		{	height:230px;
+			width: 320px;
+			margin-top: 20px;
+			text-align:center;
+
+			 -webkit-transition: all 1s ease;
+     		-moz-transition: all 1s ease;
+		       -o-transition: all 1s ease;
+		      -ms-transition: all 1s ease;
+		          transition: all 1s ease;
+			
+			}
+
+
+.logis img:hover {
+  width: 340px;
+  height: 250px;
+}
+
+			.txt-logis
+		{	
+			margin-top: 20px;
+			font-size: 20px;
+			font-style: #615582;
+			text-align:center;
+
+			}
 
 /*# Footer*/
 		.footer {
