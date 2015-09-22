@@ -125,8 +125,7 @@
               <div id="date">
   	              <h1 id="titre_h1"> Mariage de Jean Bernard et Pauline </h1>
   		            <h2 id="titre_h2"> Le 16 Mai 2016</h2>
-                   <!-- Le compte à rebours-->       
-    <div id="compte_a_rebours"></div>
+                  
               </div>
           </div>
       </div>
@@ -286,6 +285,30 @@
      
      </div>
 
+     <div id="form">
+           <!-- Le compte à rebours-->       
+                <div id="compte_a_rebours"></div>
+
+           <!-- Le Formulaire-->   
+                <p class="titre-formulaire">Vous avez reçu une invitation, envoyez nous votre réponse avant le 31 Janvier  </p> 
+                <form method="post" action="traitement.php">
+                  <div class="feildset">
+                   <input type="text" name="nom" id="nom" placeholder ="Votre Nom">/
+                   <input type="text" name="prenom" id="prenom" placeholder ="Votre Prénom"></br>
+                   <input type="number" name="accompagnant" id="accompagnant"  placeholder ="Nombre d'invités"/></br>
+                 </div>
+                 <div>
+
+                   <p class="feild">Veuillez indiquer à quel(s) évenement(s) vous serez présents?</label></br>
+                       <input type="radio" name="event" value="vin" id="vin" /> <label for="vin">Vin d'honneur</label>
+                       <input type="radio" name="event" value="repas" id="repas" /> <label for="repas">Repas</label>
+                       <input type="radio" name="event" value="deux" id="deux"/> <label for="deux">Les deux</label></br>
+                       <input class="btn" type="submit" value="Envoyer" />
+                     </div>
+                       
+                   </p>
+                </form>
+    </div>
      <!-- Liste de mariage -->    
     <div id="liste-mariage">
        <h3 id="titre_h3"> Leur cagnotte de mariage</h3>

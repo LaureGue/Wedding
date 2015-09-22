@@ -403,9 +403,80 @@ header a
 
 
 /*# Formulaire*/
-		:required
+		#form
 {
-    background-color: red;
+    background-color: #d0c5e5;
+    height: 500px;
+    padding-top: 20px;
+    padding: auto;
+    width: 600px;
+    margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 10px; 
+
+}
+input
+{
+    border: 0 0 3px 0;
+    border-width: 3px; 
+    background: transparent none repeat scroll 0% 0%; 
+    border-width: 0px 0px 1px;
+	border-style: none none solid;
+	border-color: -moz-use-text-color -moz-use-text-color #595959;
+    font-size: 20px;
+    color: #615582; 
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: text;
+
+}
+.titre-formulaire
+{
+    font-size: 20px;
+    color: #615582;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.btn
+{
+    font-size: 20px;
+    color: #615582;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: transparent none repeat scroll 0% 0%; 
+    border-width: 1px ;
+	border-style: solid;
+	border-color: black;
+}
+
+.btn:hover
+{
+    
+    background:  #615582; 
+    color:white;
+}
+label
+{
+    font-size: 16px;
+    color: #716799;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10px;
+
+}
+
+input[type="radio"] {
+    margin: 4px 0px 0px;
+    line-height: normal;
+    color:#615582;
+}
+.feild
+{
+ 
+    font-size: 20px;
+    color: #615582;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
+
 }
 
 

@@ -6,7 +6,7 @@ function compte_a_rebours()
 	var date_evenement = new Date("May 16 16:00:00 2016");
 	var total_secondes = (date_evenement - date_actuelle) / 1000;
 
-	var prefixe = "RDV dans ";
+	var prefixe = "Plus que " ;
 	if (total_secondes < 0)
 	{
 		prefixe = "Just Married "; // On modifie le préfixe si la différence est négatif
