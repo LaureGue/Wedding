@@ -11,7 +11,7 @@ html, body
 
 }
 
-a
+/*a
 {
 	color:#615582;
 		cursor:pointer;
@@ -23,7 +23,7 @@ a:hover
 	color:white;
 		cursor:pointer;
 
-}
+}*/
 
 div
 {
@@ -47,7 +47,7 @@ header
 
 }
 
-header a
+/*header a
   {
 	    color:#E8708B;;
 	    font-size:28px;
