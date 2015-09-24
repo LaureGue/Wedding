@@ -50,7 +50,7 @@ header
 header a
   {
 	    color:#E8708B;;
-	    font-size:30px;
+	    font-size:28px;
 	    padding:2px;
   
   }
@@ -62,11 +62,11 @@ header a
 	}
 		.header_social a {
 			height:30px;
-			width:30px;
+			width:24px;
 			display:inline-block;
 			text-align:center;
 			line-height:48px;
-			color:#615582!important;
+			color:#615582!;
 			margin: 8px;
 		}
 
