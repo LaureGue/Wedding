@@ -23,10 +23,10 @@ function compte_a_rebours()
 		secondes = Math.floor(total_secondes - ((jours * 60 * 60 * 24 + heures * 60 * 60 + minutes * 60)));
 
 		var et = "et";
-		var mot_jour = "J/";
-		var mot_heure = "H/";
-		var mot_minute = "Min/";
-		var mot_seconde = "Sec/";
+		var mot_jour = "Jours";
+		var mot_heure = "Heures";
+		var mot_minute = "Minutes";
+		var mot_seconde = "Secondes avant l'évenement";
 
 		if (jours == 0)
 		{
